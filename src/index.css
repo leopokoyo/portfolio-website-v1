@@ -1,0 +1,20 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Rosmatika';
+    src: url('./assets/fonts/Rosmatika.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: theme('colors.palette_4'); /* Set your desired default background color here */
+}
+
+* {
+
+    font-family: Rosmatika;
+}
